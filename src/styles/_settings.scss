@@ -20,9 +20,15 @@ $black: #000000;
 }
 
 body {
-    background: $white;
+    background: $color-3;
     font-family: $font-1;
+    width: 80%;
+    margin: 0 auto;
     // @include verticalCenter;
+}
+
+main {
+    display: block;
 }
 
 h1 {font-weight: 700;}
@@ -41,3 +47,4 @@ ul {
     justify-content: center;
     align-items: center;
 }
+

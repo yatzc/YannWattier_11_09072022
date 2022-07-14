@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Card = () => {
+const Card = ({ logement }) => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <article>    
+                <Link to={`/lodging/${logement.id}`}><img src={logement.cover} alt={"logement " + logement.title} /></Link>
+            </article>
+        </>
     );
 };
 
