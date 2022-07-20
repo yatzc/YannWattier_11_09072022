@@ -5,10 +5,10 @@ import coverHome from '../assets/img/cover-home.png';
 
 const Gallery = () => {
     return (
-        <main>
+        <main className="Gallery">
             <div className="banner">
                 <img src={ coverHome } alt="" />
-                <h2>Chez vous, partout et ailleurs</h2>
+                <h1>Chez vous, partout et ailleurs</h1>
             </div>
             <section className="gallery">
                 {
